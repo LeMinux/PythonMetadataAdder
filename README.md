@@ -7,6 +7,9 @@ I use a dictionary and based on the name of the key is what's added as an argume
 I would use exiftool, but as of now there isn't support for writing to mp3 files it can only read.
 This script I also made to only works for .mp3 files as that's what I use.
 The script also only works on Linux as I'm using the /tmp directory for ffmpeg's temp file.
+Be aware that this script will replace the original file with the new metadata.
+The file is copied over, so no content other than the metadata should change.
+However, doesn't hurt to check every once in a while.
 
 ## Options
 
